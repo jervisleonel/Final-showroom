@@ -1,0 +1,50 @@
+<html>
+<body>
+<h3>
+<center>
+Taking rides to a newer level
+<br>
+SEND A MESSAGE
+</center>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Contacts</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Phone Number:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+<label for="lname">Message:</label><br>
+  <input type="text" id="msg" name="msg" value=""><br><br>
+ <input type="submit" class="submitButton" 
+               id="submitButton" value="Submit">
+        <input type="reset" class="resetButton" 
+               id="resetButton" value="Reset">
+    </form>
+
+    <script>
+        document.addEventListener(
+              'DOMContentLoaded', function () {
+            document.getElementById('submitButton').
+            addEventListener('click', function () {
+                alert('Thank You for your request. We will call back soon!');
+            });
+            document.getElementById('resetButton').
+            addEventListener('click', function () {
+                alert('Reset button clicked!');
+            });
+        });
+    </script>
+<b>Call Free to Contact:</b>
+<br>
+Contact : +91 8248339149
+<br>
+Email : jervisleo98@gmail.com
+</body>
+
+</html>

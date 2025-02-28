@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+ <title>Bootstrap Badges Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+function swapImage() {
+	var image = document.getElementById("imageToSwap");
+	var change = document.getElementById("colour");
+	image.src = change.value;
+};
+
+
+body {
+  background-image: url('road.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+
+
+<body>
+<h1>TVS</h2>
+<br>
+<br>
+
+<div align="left" class="container">
+  <h4>Select Your TVS Bike:</h4>
+  <a href="E:/LEONEL/TVS Apache RTR-160-Red.jpg" ><b>TVS Apache RTR-160-Red:</b><div class="caption">Price range of Rs. 1,17175 - Rs. 1,30124</div> </a><br> </a>
+<a href="E:/LEONEL/TVS Star City Plus-Violet.png"><b>TVS Star City Plus-Violet:</b><div class="caption">Price range of ₹75,000 to ₹78,000</div> </a><br> </a><br></a>
+<a href="E:/LEONEL/TVS Radeon-Blue.png"><b>TVS Radeon-Blue:</b><div class="caption">Price range of Rs. 75274 - Rs. 84518</div> </a><br> </a><br></a>
+<a href="E:/LEONEL/TVS Raider-125-Yellow.png"><b>TVS Raider-125-Yellow:</b><div class="caption">Price range of Rs 85,010 - 1.04 Lakh</div> </a><br> </a><br> </a>
+
+  
+</div>  
+ 
+
+</body>
+</html>
